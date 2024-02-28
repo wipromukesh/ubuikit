@@ -57,10 +57,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtF",
-            "mangledName": "$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtF",
+            "usr": "s:7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtFZ",
+            "mangledName": "$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtFZ",
             "moduleName": "ubuikit",
+            "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -82,28 +84,28 @@
     {
       "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 300,
+      "offset": 307,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 308,
+      "offset": 315,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 320,
+      "offset": 327,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 340,
       "length": 3,
       "value": "200"
     }

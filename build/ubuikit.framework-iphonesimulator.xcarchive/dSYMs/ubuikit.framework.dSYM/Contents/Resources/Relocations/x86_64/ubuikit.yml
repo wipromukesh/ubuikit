@@ -4,9 +4,9 @@ binary-path:     '/Users/mu20512697/Library/Developer/Xcode/DerivedData/ubuikit-
 relocations:
   - { offsetInCU: 0x34, offset: 0x54964, size: 0x8, addend: 0x0, symName: _ubuikitVersionString, symObjAddr: 0x0, symBinAddr: 0x3CC0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x54999, size: 0x8, addend: 0x0, symName: _ubuikitVersionNumber, symObjAddr: 0x28, symBinAddr: 0x3CE8, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x549D6, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtF', symObjAddr: 0x0, symBinAddr: 0x2CF0, symSize: 0x100 }
-  - { offsetInCU: 0x4B, offset: 0x549FA, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtF', symObjAddr: 0x0, symBinAddr: 0x2CF0, symSize: 0x100 }
-  - { offsetInCU: 0xE7, offset: 0x54A96, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonCfd', symObjAddr: 0x100, symBinAddr: 0x2DF0, symSize: 0x10 }
-  - { offsetInCU: 0x114, offset: 0x54AC3, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonCfD', symObjAddr: 0x110, symBinAddr: 0x2E00, symSize: 0x20 }
-  - { offsetInCU: 0x142, offset: 0x54AF1, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonCMa', symObjAddr: 0x130, symBinAddr: 0x2E20, symSize: 0x20 }
+  - { offsetInCU: 0x27, offset: 0x549D6, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtFZ', symObjAddr: 0x0, symBinAddr: 0x2D00, symSize: 0x100 }
+  - { offsetInCU: 0x4B, offset: 0x549FA, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtFZ', symObjAddr: 0x0, symBinAddr: 0x2D00, symSize: 0x100 }
+  - { offsetInCU: 0xE7, offset: 0x54A96, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonCfd', symObjAddr: 0x100, symBinAddr: 0x2E00, symSize: 0x10 }
+  - { offsetInCU: 0x114, offset: 0x54AC3, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonCfD', symObjAddr: 0x110, symBinAddr: 0x2E10, symSize: 0x20 }
+  - { offsetInCU: 0x142, offset: 0x54AF1, size: 0x8, addend: 0x0, symName: '_$s7ubuikit8UBButtonCMa', symObjAddr: 0x130, symBinAddr: 0x2E30, symSize: 0x20 }
 ...
