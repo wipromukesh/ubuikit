@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2649AE8B2B8F052A008006B2 /* ubuikit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2649AE8A2B8F052A008006B2 /* ubuikit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2649AE922B8F0544008006B2 /* UBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649AE912B8F0544008006B2 /* UBButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2649AE872B8F052A008006B2 /* ubuikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ubuikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2649AE8A2B8F052A008006B2 /* ubuikit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubuikit.h; sourceTree = "<group>"; };
+		2649AE912B8F0544008006B2 /* UBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				2649AE8A2B8F052A008006B2 /* ubuikit.h */,
+				2649AE912B8F0544008006B2 /* UBButton.swift */,
 			);
 			path = ubuikit;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					2649AE862B8F052A008006B2 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2649AE922B8F0544008006B2 /* UBButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +268,8 @@
 		2649AE8F2B8F052A008006B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -273,6 +280,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,6 +293,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,6 +302,8 @@
 		2649AE902B8F052A008006B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -303,6 +314,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

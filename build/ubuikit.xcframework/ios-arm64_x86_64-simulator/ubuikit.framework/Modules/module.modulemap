@@ -1,0 +1,11 @@
+framework module ubuikit {
+  umbrella header "ubuikit.h"
+  export *
+
+  module * { export * }
+}
+
+module ubuikit.Swift {
+  header "ubuikit-Swift.h"
+  requires objc
+}

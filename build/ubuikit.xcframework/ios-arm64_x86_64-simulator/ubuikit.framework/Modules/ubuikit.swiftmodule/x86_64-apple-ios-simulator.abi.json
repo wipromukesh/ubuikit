@@ -1,0 +1,111 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ubuikit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ubuikit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UBButton",
+        "printedName": "UBButton",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "makeButton",
+            "printedName": "makeButton(title:bgColor:titileColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtF",
+            "mangledName": "$s7ubuikit8UBButtonC10makeButton5title7bgColor06titileG0So8UIButtonCSS_So7UIColorCAKtF",
+            "moduleName": "ubuikit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7ubuikit8UBButtonC",
+        "mangledName": "$s7ubuikit8UBButtonC",
+        "moduleName": "ubuikit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 300,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/ubuikit\/ubuikit\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "200"
+    }
+  ]
+}
