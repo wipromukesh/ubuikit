@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ubuikit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Adding framework for uikit button integration."
   spec.description  = "Adding framework for uikit button integration"
   spec.homepage     = "https://github.com/wipromukesh/ubuikit"
